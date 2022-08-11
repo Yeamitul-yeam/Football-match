@@ -1,0 +1,116 @@
+    /* postar design */
+    
+    body {
+        width: 100%;
+    }
+    
+    .postar {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    
+    header {
+        display: flex;
+        background-color: #161616;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    
+    .header-desciption h1 {
+        font-size: 70px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+    
+    .header-desciption p {
+        color: #FFFFFF;
+    }
+    
+    .header-desciption a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        background: #DD0000;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    
+    .header-desciption {
+        padding-left: 105px;
+        padding-top: 50px;
+    }
+    
+    .marcelo {
+        height: 640px;
+        width: 501px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    /* menubar */
+    
+    .menubar-full {
+        height: 356px;
+        width: 356px;
+        background-color: #161616;
+    }
+    
+    .menu-decoration {
+        display: grid;
+        grid-template-columns: 1 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        margin-left: 50px;
+    }
+    
+    .menu {
+        background-color: #FFFFFF;
+        height: 64px;
+        width: 256px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 15px;
+    }
+    
+    .menu-colour {
+        background-color: #7a1212;
+        height: 64px;
+        width: 256px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 15px;
+    }
+    
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    
+    section {
+        display: flex;
+        padding: 35px;
+    }
+    
+    .blog-info {
+        display: flex;
+        align-items: center;
+        padding-right: 15px;
+    }
+    
+    section {
+        margin: 50px;
+        width: 100%;
+    }
